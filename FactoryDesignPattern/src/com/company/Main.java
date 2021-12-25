@@ -10,7 +10,7 @@ public class Main {
         /*                  ÖRNEK 1               */
 
         //FABRİKAYI ÇAĞIRIYORUZ
-        PlanFactory planFactory = new PlanFactory();
+        PlanFactory planFactory = new PlanFactory(); //scanner gibi düşün
         Plan plan;
 
         //1 sayısına atadığımız domestic plan'ı çadegğırıyoruz
