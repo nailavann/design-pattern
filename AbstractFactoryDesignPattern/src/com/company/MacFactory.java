@@ -1,6 +1,6 @@
 package com.company;
 
-public class MacFactory implements GUIFactory{
+public class MacFactory implements GUIFactory {
     @Override
     public Button createButton() {
         return new MacButton();

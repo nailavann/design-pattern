@@ -1,6 +1,6 @@
 package com.company;
 
-public class WinFactory implements GUIFactory{
+public class WinFactory implements GUIFactory {
 
     @Override
     public Button createButton() {
