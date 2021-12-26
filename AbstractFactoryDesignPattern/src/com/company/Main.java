@@ -1,6 +1,7 @@
 package com.company;
 
 import ornek_2.*;
+import ornek_3.*;
 
 public class Main {
 
@@ -80,8 +81,34 @@ public class Main {
         coupe.produceCar();
         sedan.produceCar();
 
+        System.out.println();
+        System.out.println("Örnek 3");
+        System.out.println();
 
 
+                            /*               ÖRNEK 3      */
+
+
+        BaseFactory baseFactory;
+        Telephone telephone;
+        Tablets tablets;
+
+        baseFactory = new AppleFactory();
+        telephone = baseFactory.createTelephone();
+        tablets = baseFactory.createTablets();
+
+        telephone.telephone();
+        tablets.tablet();
+
+
+        System.out.println();
+
+        baseFactory = new SamsungFactory();
+        telephone = baseFactory.createTelephone();
+        tablets = baseFactory.createTablets();
+
+        telephone.telephone();
+        tablets.tablet();
 
     }
 }
