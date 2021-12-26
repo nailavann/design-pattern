@@ -110,5 +110,7 @@ public class Main {
         telephone.telephone();
         tablets.tablet();
 
+        System.out.println("123");
+
     }
 }
